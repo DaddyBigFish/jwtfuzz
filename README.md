@@ -1,4 +1,5 @@
-# Usage:
+# JWTFUZZ
+### Usage:
 ```
 -j --jwt
 -w --w
