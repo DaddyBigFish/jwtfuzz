@@ -1,9 +1,11 @@
 # Usage:
+```
 -j --jwt
 -w --w
 -k --key
 -a --algo
 -o --output
+```
 ```
 python3 jwtfuzz.py -j '{"iss": "portswigger", "exp": 1738946658, "sub": "FUZZ"}' -w namelist.txt -k 'secret1'                              
 admin                eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTczODk0NjY1OCwic3ViIjoiYWRtaW4ifQ.vjj9S9S4Cyw2t9IpreQe4ob9GGUEM8-q1-vLlpMifeM
